@@ -24,4 +24,6 @@ RUN apk del --purge py-pip
 ADD ./data/bin /usr/local/bin
 RUN chmod a+x /usr/local/bin/*
 
+ENV HOME=/mnt/app
+
 ENTRYPOINT ["entrypoint"]
