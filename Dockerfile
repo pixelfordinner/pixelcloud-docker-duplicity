@@ -1,5 +1,5 @@
-FROM alpine:3.5
-MAINTAINER Karl Fathi <karl@pixelfordinner.com>
+FROM alpine:3.10
+LABEL maintainer="Karl Fathi <karl@pixelfordinner.com>"
 
 ENV LANG C.UTF-8
 
